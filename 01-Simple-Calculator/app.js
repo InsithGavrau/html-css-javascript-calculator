@@ -3,7 +3,7 @@ document.getElementById("btn").addEventListener("click", function () {
   let num2 = document.querySelector(".num2").value;
   let result = document.querySelector(".result");
   let oprator = document.getElementById("selectOp").value;
-
+  let equals = document.getElementById("dev").value;
   switch (oprator) {
     case "plus":
       result.innerHTML = Number(num1) + Number(num2);
